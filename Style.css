@@ -1,0 +1,165 @@
+body {
+  margin: 0px;
+  background-color: gray;
+}
+
+input[type=number] {
+  width: 60px;
+  border: 2px solid black;
+  margin-top: auto;
+  top: 0;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.box {
+  width: 98.7%;
+  height: 7%;
+  background-color: #666666;
+  padding: 10px 10px 10px 10px;
+}
+
+.boxhidden {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1aff66;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  padding: 8px;
+  background-color: transparent;
+  border: none;
+}
+
+.button {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  font-size: 26px;
+}
+
+.boxhidden a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.boxhidden a:hover {
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+hr {
+  height: 2.5px;
+  background-color: black;
+}
+
+table {
+  background-color: white;
+}
+
+.table1 {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+
+
+/*CHECKBOX!!!*/
+
+input[type=checkbox] {
+  position: relative;
+  cursor: pointer;
+  margin-right: 5;
+  margin-top: 0;
+}
+
+input[type=checkbox]:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+  border: 2px solid #555555;
+  border-radius: 3px;
+  background-color: white;
+}
+
+input[type=checkbox]:checked:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 2px;
+  left: 6px;
+}
+
+
+/*CHECKBOX END...*/
+
+.table2 {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.table3 {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.table4 {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.table5 {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+
+
+/*ScrollBar*/
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0d0d0d;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4d4d4d;
+}
