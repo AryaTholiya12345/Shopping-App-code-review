@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<link href="css/index.css" rel="stylesheet">
+<link href="js/index.js" rel="stylesheet">
+
+<head>
+  <link rel="icon" href="https://i.ibb.co/k4fCG7t/shopping-cart.png" type="image/icon type">
+  <script type="text/javascript" src="js/index.js"></script>
+  <title>Shopping App</title>
+</head>
+
+<body>
+  <div class="box">
+
+    <H1 align="center" style="margin: 0; color: black;">
+      Online Shopping Mart!</H1>
+
+  </div>
+  <div class="boxhidden" id="Sidebar">
+    <button class="closebtn" onclick="closeSidebar()">
+      &times
+    </button>
+
+    <p id="r234esult"></p>
+    <a>2 - two  </a>
+    <a>3 - three</a>
+  </div><br>
+  <div style="display: none;"> <button onclick="add()">Add</button>
+    <button onclick="add2()">Add</button></div>
+  <br><br>
+  <center>
+    <table>
+      <tr>
+        <th class=table1>
+          <img src="https://i.ibb.co/93tFB9k/elec-laptop.png" height="100px" width="180px">
+          <br>
+          <p>
+            <hr>LAPTOP &#8377;50,000
+            <label class="radiobox">
+     <input name="1" class="radio" onclick="result()" type="checkbox" value="50000" name="q4">
+   </label></p>
+        </th>
+        <th class=table2>
+          <img src="https://i.ibb.co/56Yj97P/elec-tablet.png" height="100px" width="180px">
+          <br>
+          <p>
+            <hr>TABLET &#8377;8,000
+            <label class="radiobox">
+        <input class="radio" onclick="result()" type="checkbox" value="8000" name="q5">
+      </label></p>
+    </table>
+    <table>
+      </th>
+      <th class=table3>
+        <img src="https://i.ibb.co/S688073/elec-cpu.png" height="100px" width="180px">
+        <br>
+        <p>
+          <hr>CPU &#8377;10,000
+          <label class="radiobox">
+      <input class="radio" onclick="result()" type="checkbox" value="10000" name="q1">
+    </label></p>
+
+      </th>
+      <th class=table4>
+        <img src="https://i.ibb.co/hyDz4Dd/elec-ipad.png" height="100px" width="180px">
+        <br>
+        <p>
+          <hr>IPAD &#8377;20,000
+          <label class="radiobox">
+        <input class="radio" onclick="result()" type="checkbox" value="20000" name="q3">
+      </label></p>
+    </table>
+    <h3>** Best Deal **</h3>
+    <table>
+      </th>
+      <th class=table5>
+        <img src="https://i.ibb.co/StvRHF1/elec-laptop2.png" height="200px" width="360px">
+        <br>
+        <p>
+          <hr>LAPTOP &#x20B9;90,000
+          <label class="radiobox">
+        <input class="radio" onclick="result()" type="checkbox" value="90000" name="q2">
+      </label></p>
+      </th>
+      </tr>
+    </table>
+  </CENTER>
+
+  <h1 align="center">FRUITS (PER kg)</h1>
+
+  <center>
+    <table>
+      <tr>
+        <th class=table1>
+          <img src="https://i.ibb.co/DQDwMZv/Two-whole-orange-fruits-and-half-with-green-leaves-isolated-on-white-background.jpg" height="100px" width="180px">
+          <br>
+          <p>
+            <hr>ORANGE &#8377;100
+            <label class="radiobox">
+   <input class="radio" onclick="result()" type="checkbox" value="100" name="q6">
+ </label></p>
+        </th>
+
+        <th class=table2>
+          <img src="https://i.ibb.co/WkFRW5N/potato.jpg" height="100px" width="180px">
+          <br>
+          <p>
+            <hr> POTATO &#8377;38
+            <label class="radiobox">
+      <input class="radio" onclick="result()" type="checkbox" value="38" name="q7">
+    </label></p>
+
+        </th>
+    </table>
+    <table>
+      <th class=table3>
+        <img src="https://i.ibb.co/ZLhhpmY/tomato.jpg" height="100px" width="180px">
+        <br>
+        <p>
+          <hr> TOMATO &#8377;65
+          <label class="radiobox">
+    <input class="radio" onclick="result()" type="checkbox" value="65" name="q8">
+  </label></p>
+
+      </th>
+
+      <th class=table4>
+        <img src="https://i.ibb.co/grrrkBq/dragonfruit.jpg" height="100px" width="180px">
+        <br>
+        <p>
+          <hr>DRAGON-FRUIT &#8377;70
+          <label class="radiobox">
+      <input class="radio" onclick="result()" type="checkbox" value="70" name="q9">
+    </label></p>
+
+      </th>
+    </table>
+    <h3>** Best Deal **</h3>
+    <table>
+      <th class=table5>
+        <img src="https://i.ibb.co/fYrkv46/strawberries.jpg" height="200px" width="360px">
+        <br>
+        <p>
+          <hr>STRAWBERRIES &#x20B9; 35
+          <label class="radiobox">
+      <input class="radio" onclick="result()" type="checkbox" value="35" name="q10">
+    </label></p>
+      </th>
+      </tr>
+    </table>
+  </CENTER>
+
+  <h1 align="center">CLOTH ITEMS</h1>
+
+  <center>
+    <table>
+      <tr>
+        <th class=table1>
+          <img src="https://i.ibb.co/6rJzTMT/cloth-coat.jpg" height="100px" width="180px">
+          <br>
+          <p>
+            <hr>COAT &#8377;1890
+            <label class="radiobox">
+   <input class="radio" onclick="result()" type="checkbox" value="1890" name="q11">
+ </label></p>
+        </th>
+
+        <th class=table2>
+          <img src="https://i.ibb.co/1TNTKXQ/cloth-shirt.jpg" height="100px" width="180px">
+          <br>
+          <p>
+            <hr>SHIRT &#8377;500
+            <label class="radiobox">
+      <input class="radio" onclick="result()" type="checkbox" value="500" name="q12">
+    </label></p>
+
+        </th>
+    </table>
+    <table>
+      <th class=table3>
+        <img src="https://i.ibb.co/JQtpJVF/cloth-dress.jpg" height="100px" width="180px">
+        <br>
+        <p>
+          <hr>DRESS &#8377;900
+          <label class="radiobox">
+    <input class="radio" onclick="result()" type="checkbox" value="900" name="q13">
+    
+  </label></p>
+
+      </th>
+
+      <th class=table4>
+        <img src="https://i.ibb.co/TrFz6pD/cloth-pants1.jpg" height="100px" width="180px">
+        <br>
+        <p>
+          <hr>PANTS &#8377;599
+          <label class="radiobox">
+      <input class="radio" onclick="result()" type="checkbox" value="599" name="q14">
+      
+    </label></p>
+
+      </th>
+    </table>
+    <h3>** Best Deal **</h3>
+    <table>
+      <th class=table5>
+        <img src="https://i.ibb.co/BB7jW7n/cloth-pants2.jpg" height="200px" width="360px">
+        <br>
+        <p>
+          <hr>PANTS &#x20B9;469
+          <label class="radiobox">
+      <input class="radio" onclick="result()" type="checkbox" value="469" name="q15"><br>
+    </label></p>
+      </th>
+      </tr>
+    </table>
+  </CENTER>
+  <br><br>
+  <h1>
+    <p align="center" id="result">Total Cost: 0</p>
+  </h1>
+  <br><br><br><br>
+</body>
+
+</html>
